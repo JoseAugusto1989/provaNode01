@@ -1,5 +1,6 @@
 const express = require('express')
 const router = require('./route/movies.route')
+const auth = require('./auth')
 
 const app = express()
 app.use(express.json())
